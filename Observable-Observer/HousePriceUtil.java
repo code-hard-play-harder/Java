@@ -41,7 +41,7 @@ class HousePrice extends Observable {
                     price = currentPrice;
                     count++;
 
-                    // Notify house buyer
+                    // Notify house observers
                     setChanged();
                     notifyObservers();
                 }
